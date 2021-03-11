@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "rm -rf .cache && gatsby develop",
     "build": "gatsby build",
+    "wpe-build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
