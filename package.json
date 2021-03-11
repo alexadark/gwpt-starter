@@ -9,7 +9,7 @@
     "wpe-build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
+    "start": "gatsby serve -p 8080",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "analyze": "rm -rf .cache && ANALYZE_BUNDLE_SIZE=true gatsby build"
